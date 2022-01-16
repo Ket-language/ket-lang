@@ -1,2 +1,2 @@
 # ket-lang
-ket is a programming language
+my journey of writing my own programming language
