@@ -3,12 +3,18 @@
 
 #include "common.h"
 
-typedef enum {
+/* Function Return Operation */
+typedef enum {  
     OP_RETURN,
 } OpCode;
 
-typedef struct {
+/* Array structure */
+typedef struct {  
+    int count;
+    int capacity;
     uint8_t* code;
 } Chunk;
+
+void initChunk(Chunk* chunk);
 
 #endif
